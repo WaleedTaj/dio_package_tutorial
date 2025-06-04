@@ -1,16 +1,53 @@
-# dio_tutorial
+# **Dio Package Tutorial**
 
-A new Flutter project.
+## **📘 Overview**
 
-## Getting Started
+A **Flutter-based CRUD and File Handling App** using the **Dio package**. It demonstrates how to perform various HTTP operations like **GET, POST, PUT, PATCH, DELETE**, and how to **download/upload files** including **images and PDFs** using Dio 📡.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## **📱 Features**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Get Data**: Fetches data from the internet.
+- **Post Data**: Sends data to a server.
+- **Get & Post Together**: Uses `Future.wait` for combined requests.
+- **Update Data (PUT)**: Replaces data at a given endpoint.
+- **Patch Data**: Partially updates data.
+- **Delete Data**: Deletes data from the server.
+- **Download File**: Downloads and saves files locally.
+- **Upload File**: Uploads images to **ImgBB**.
+- **Upload PDF**: Uploads PDFs to **PDF.co**.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## **🖼️ Screenshots**
+
+<img src="assets/images/Screenshot_1.png" width="200" style="margin-right: 20px;"/>
+
+## **🚀 Getting Started**
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/WaleedTaj/dio_package_tutorial.git
+   ```
+2. **Install Dependencies**:
+   ```bash
+   flutter pub get
+   ```
+3. **Run the App**:
+   ```bash
+   flutter run
+   ```
+
+## **🧰 Packages Used**
+
+- **dio**: For all networking tasks
+- **file_picker**: Picking images/files from the system
+- **path_provider**: To get directory paths
+- **flutter/material.dart**: UI development
+
+## **🛠️ Built With**
+
+- **Flutter** - Framework for cross-platform development.
+- **Dart** - Programming language for Flutter apps.
+- **Dio** - Advanced HTTP client for networking.
